@@ -3,23 +3,18 @@
 ***
 
 <p align="center">
-🎉 Ultra-simplified explanation to design patterns! 🎉
+🎉 Explication ultra-simplifiée des design patterns 🎉
 </p>
 <p align="center">
-A topic that can easily make anyone's mind wobble. Here I try to make them stick in to your mind (and maybe mine) by explaining them in the <i>simplest</i> way possible.
+Ce sujet peut rendre fou plus d'un. Ici, j'essaie de les faire rentrer dans votre esprit (et peut-être le mien) en les expliquant de la manière la <i>plus simple</i> possible.    
 </p>
 
-
-***
-
-<p align="center"><b> Did you like this guide and want more of the similar content? </b><br>Subscribe for the launch of <a href="http://hugobots.com">Hugobots</a> or <a href="http://twitter.com/kamranahmedse">follow me on twitter</a>!</p>
-
-***
 
 🚀 Introduction
 =================
 
-Design patterns are solutions to recurring problems; **guidelines on how to tackle certain problems**. They are not classes, packages or libraries that you can plug into your application and wait for the magic to happen. These are, rather, guidelines on how to tackle certain problems in certain situations.
+
+Les design patterns sont des solutions a des problèmes courant; **guidelines on how to tackle certain problems**. Ce ne sont pas des classes, packages ou libraries que vous pouvez injecter dans votre application et attendre que la magie se fasse. These are, rather, guidelines on how to tackle certain problems in certain situations.
 
 > Design patterns are solutions to recurring problems; guidelines on how to tackle certain problems
 
@@ -46,10 +41,14 @@ Creational Design Patterns
 ==========================
 
 In plain words
-> Creational patterns are focused towards how to instantiate an object or group of related objects.
+> Les patterns de création sont axés sur la manière d'instancier un objet ou un groupe d'objets liés (connexes).
 
 Wikipedia says
 > In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
+
+> Un patron de création permet de résoudre les problèmes liés à la création et la configuration d'objets.
+
+Par exemple, une classe nommée RessourcesApplication gérant toutes les ressources de l'application ne doit être instanciée qu'une seule et unique fois. Il faut donc empêcher la création intentionnelle ou accidentelle d'une autre instance de la classe. Ce type de problème est résolu par le patron de conception "Singleton".
 
  * [Simple Factory](#-simple-factory)
  * [Factory Method](#-factory-method)
